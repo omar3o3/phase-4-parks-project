@@ -1,4 +1,7 @@
-# Project Template: React/Rails API
+# README [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]
+[![webpage_gif_001](./Phase%204%20project%20demo%20NYC%20Park%20API%20website%20220715.gif)]
+This phase Omar and I decided to keep working on the NYC Park API website. With the Rails on React, we are able to combine frontend and backend into one repo. The function are similar to previous project but we simplfy the schema of our data and make the website more user friendly.
+This time we have user login/signup/logout authentication available.
 
 # Run before first time npm start
 cd into client folder
