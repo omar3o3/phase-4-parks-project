@@ -1,9 +1,21 @@
-# Project Template: React/Rails API
+# README [![Awesome](https://cdn.jsdelivr.net/gh/sindresorhus/awesome@d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)]
+This phase Omar and I decided to keep working on the NYC Park API website. With the Rails on React, we are able to combine frontend and backend into one repo. The function are similar to previous project but we simplfy the schema of our data and make the website more user friendly.
+This time we have user login/signup/logout authentication available.
 
+
+# For people who fork the repo, please use commands and actions below:
+bundle install
+rails s
+# Create New Terminal
+cd client
+npm install
+npm start
 # Run before first time npm start
-cd into client folder
+cd client
 npm i react-router-dom
 npm i react-calendar
+
+# Project Template: React/Rails API
 
 ## Description
 
