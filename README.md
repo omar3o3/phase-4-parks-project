@@ -11,7 +11,7 @@ To set up the application, run these commands:
 
 ```console
 $ bundle install
-$ bundle exec rake db:migrate db:seed
+$ rails db:migrate db:seed
 ```
 
 You can run the app and explore your API in the browser by using the rails task:
