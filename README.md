@@ -4,17 +4,32 @@ This phase Omar and I decided to keep working on the NYC Park API website. With 
 This time we have user login/signup/logout authentication available.
 
 
-# For people who fork the repo, please use commands and actions below:
-bundle install
-rails s
-# Create New Terminal
-cd client
-npm install
-npm start
-# Run before first time npm start
-cd client
-npm i react-router-dom
-npm i react-calendar
+If you want to run this website locally, please fork the repo, then please use commands and actions below:<br />
+
+To run the website locally  <br />
+To set up the application, run these commands:
+
+```console
+$ bundle install
+$ bundle exec rake db:migrate db:seed
+```
+
+You can run the app and explore your API in the browser by using the rails task:
+
+```console
+$ rails s
+```
+Run below commands inside directory for frontend. <br />
+```console
+$ cd client
+$ npm install
+$ npm start
+```
+Under the same directory, if thisi first time npm install.
+```console
+$ npm i react-router-dom
+$ npm i react-calendar
+```
 
 # Project Template: React/Rails API
 
