@@ -22,6 +22,8 @@ $ rails s
 Run below commands inside directory for frontend. <br />
 ```console
 $ cd client
+```
+```console
 $ npm install
 $ npm start
 ```
